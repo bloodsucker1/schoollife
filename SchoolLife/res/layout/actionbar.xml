@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rellay_action_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:clipToPadding="true"
+     android:fitsSystemWindows="true"
+   >
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    >
+     <ImageButton
+        android:id="@+id/btn_action_bar_left"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/btn_pressed"
+        android:contentDescription="@null"
+        android:padding="20dp"
+        android:text="左按钮"
+         />
+ 
+    <TextView
+        android:id="@+id/tv_action_bar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="标题栏"
+        android:textColor="@color/green"
+        android:textSize="20sp" />
+ 
+    <ImageButton
+        android:id="@+id/btn_action_bar_right"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:contentDescription="@null"
+        android:text="右按钮"
+        android:padding="20dp"
+        />
+</RelativeLayout>
+</RelativeLayout>

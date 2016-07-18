@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:id="@+id/ll_head"
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    </LinearLayout>
+    <GridView 
+        android:id="@+id/gv_oldthings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:numColumns="3"></GridView>
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="学长/学姐送"
+        android:background="@color/green1"
+        android:gravity="center"/>
+   
+    <Button 
+        android:id="@+id/btn_other_give"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/btn_pressed"
+        android:gravity="center"
+        android:text="立马抢">
+    </Button>
+</LinearLayout>

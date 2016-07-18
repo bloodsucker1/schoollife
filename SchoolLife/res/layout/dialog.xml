@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="150dp"
+    android:orientation="vertical" 
+    >
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="	确定后请立即联系idea提供者"
+        android:background="@drawable/bg_tab"
+        android:padding="15dp"
+        android:textSize="22sp"
+        />
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button 
+            android:id="@+id/btn_canale"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="取消"
+            android:onClick="onClick"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_tab"
+            />
+        <Button 
+            android:id="@+id/btn_sure"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="确定"
+            android:onClick="onClick"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_tab"
+            />
+    </LinearLayout>
+
+</LinearLayout>

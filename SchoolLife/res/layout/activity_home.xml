@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+
+ <android.support.v4.view.ViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_tab"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/tv_sort"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="分类"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:textColor="@color/selector_color"/>
+        <TextView
+            android:id="@+id/tv_release"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="发布"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:textColor="@color/selector_color"/>
+         <TextView
+            android:id="@+id/tv_change"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="改变"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:textColor="@color/selector_color"/>
+        <TextView
+            android:id="@+id/tv_person"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="个人中心"
+            android:textSize="18dp"
+            android:textColor="@color/selector_color"/>
+    </LinearLayout>
+</LinearLayout>
