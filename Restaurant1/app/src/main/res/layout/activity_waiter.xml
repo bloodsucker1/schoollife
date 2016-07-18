@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.restaurant.activity.WaiterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+        <Button android:id="@+id/btn_Setting"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="设置"
+                android:background="@drawable/btn_select"/>
+        <Button android:id="@+id/btn_History"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="历史记录"
+                android:background="@drawable/btn_select"/>
+    </LinearLayout>
+    <Button android:id="@+id/btn_NoPay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="未收款订单"
+            android:background="@drawable/btn_select"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="1"
+                 android:background="@drawable/btn_normal">
+        <Button android:id="@+id/btn_Start"
+                android:layout_width="150dp"
+                android:layout_height="300dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="开单"
+                android:background="@drawable/btn_select"/>
+    </FrameLayout>
+
+</LinearLayout>
